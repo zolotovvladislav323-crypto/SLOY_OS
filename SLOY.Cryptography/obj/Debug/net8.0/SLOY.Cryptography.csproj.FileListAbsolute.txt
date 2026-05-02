@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\11\SLOY.Cryptography\bin\Debug\net8.0\SLOY.Cryptography.deps.json
+C:\Users\User\Desktop\11\SLOY.Cryptography\bin\Debug\net8.0\SLOY.Cryptography.dll
+C:\Users\User\Desktop\11\SLOY.Cryptography\bin\Debug\net8.0\SLOY.Cryptography.pdb
+C:\Users\User\Desktop\11\SLOY.Cryptography\obj\Debug\net8.0\SLOY.Cryptography.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\11\SLOY.Cryptography\obj\Debug\net8.0\SLOY.Cryptography.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\11\SLOY.Cryptography\obj\Debug\net8.0\SLOY.Cryptography.AssemblyInfo.cs
+C:\Users\User\Desktop\11\SLOY.Cryptography\obj\Debug\net8.0\SLOY.Cryptography.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\11\SLOY.Cryptography\obj\Debug\net8.0\SLOY.Cryptography.dll
+C:\Users\User\Desktop\11\SLOY.Cryptography\obj\Debug\net8.0\refint\SLOY.Cryptography.dll
+C:\Users\User\Desktop\11\SLOY.Cryptography\obj\Debug\net8.0\SLOY.Cryptography.pdb
+C:\Users\User\Desktop\11\SLOY.Cryptography\obj\Debug\net8.0\ref\SLOY.Cryptography.dll
+C:\Users\User\Desktop\11\SLOY.Cryptography\obj\Debug\net8.0\SLOY.Cryptography.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\11\SLOY.Cryptography\bin\Debug\net8.0\SLOY.Core.dll
+C:\Users\User\Desktop\11\SLOY.Cryptography\bin\Debug\net8.0\SLOY.Shared.dll
+C:\Users\User\Desktop\11\SLOY.Cryptography\bin\Debug\net8.0\SLOY.Core.pdb
+C:\Users\User\Desktop\11\SLOY.Cryptography\bin\Debug\net8.0\SLOY.Shared.pdb
+C:\Users\User\Desktop\11\SLOY.Cryptography\obj\Debug\net8.0\SLOY.Cry.A4B5B0BF.Up2Date

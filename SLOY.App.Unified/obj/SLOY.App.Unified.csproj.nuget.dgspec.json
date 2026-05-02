@@ -1,0 +1,789 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\User\\Desktop\\11\\SLOY.App.Unified\\SLOY.App.Unified.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Desktop\\11\\SLOY.App.Unified\\SLOY.App.Unified.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.App.Unified\\SLOY.App.Unified.csproj",
+        "projectName": "SLOY.App.Unified",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.App.Unified\\SLOY.App.Unified.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.App.Unified\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Cryptography\\SLOY.Cryptography.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Cryptography\\SLOY.Cryptography.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.DspEngine\\SLOY.DspEngine.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.DspEngine\\SLOY.DspEngine.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Orchestrator\\SLOY.Orchestrator.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Orchestrator\\SLOY.Orchestrator.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Persistence.Secure\\SLOY.Persistence.Secure.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Persistence.Secure\\SLOY.Persistence.Secure.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.ProtocolStack\\SLOY.ProtocolStack.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.ProtocolStack\\SLOY.ProtocolStack.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Common\\SLOY.UI.Common.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Common\\SLOY.UI.Common.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Forensics\\SLOY.UI.Forensics.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Forensics\\SLOY.UI.Forensics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj",
+        "projectName": "SLOY.Core",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\11\\SLOY.Cryptography\\SLOY.Cryptography.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.Cryptography\\SLOY.Cryptography.csproj",
+        "projectName": "SLOY.Cryptography",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Cryptography\\SLOY.Cryptography.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Cryptography\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\11\\SLOY.DspEngine\\SLOY.DspEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.DspEngine\\SLOY.DspEngine.csproj",
+        "projectName": "SLOY.DspEngine",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.DspEngine\\SLOY.DspEngine.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.DspEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj",
+        "projectName": "SLOY.Infrastructure.Hardware",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[8.0.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\11\\SLOY.Orchestrator\\SLOY.Orchestrator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.Orchestrator\\SLOY.Orchestrator.csproj",
+        "projectName": "SLOY.Orchestrator",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Orchestrator\\SLOY.Orchestrator.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Orchestrator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Persistence.Secure\\SLOY.Persistence.Secure.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Persistence.Secure\\SLOY.Persistence.Secure.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.ProtocolStack\\SLOY.ProtocolStack.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.ProtocolStack\\SLOY.ProtocolStack.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\11\\SLOY.Persistence.Secure\\SLOY.Persistence.Secure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.Persistence.Secure\\SLOY.Persistence.Secure.csproj",
+        "projectName": "SLOY.Persistence.Secure",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Persistence.Secure\\SLOY.Persistence.Secure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Persistence.Secure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\11\\SLOY.ProtocolStack\\SLOY.ProtocolStack.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.ProtocolStack\\SLOY.ProtocolStack.csproj",
+        "projectName": "SLOY.ProtocolStack",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.ProtocolStack\\SLOY.ProtocolStack.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.ProtocolStack\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Core\\SLOY.Core.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj",
+        "projectName": "SLOY.Shared",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Common\\SLOY.UI.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Common\\SLOY.UI.Common.csproj",
+        "projectName": "SLOY.UI.Common",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Common\\SLOY.UI.Common.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[8.0.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Forensics\\SLOY.UI.Forensics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Forensics\\SLOY.UI.Forensics.csproj",
+        "projectName": "SLOY.UI.Forensics",
+        "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Forensics\\SLOY.UI.Forensics.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\11\\SLOY.UI.Forensics\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Infrastructure.Hardware\\SLOY.Infrastructure.Hardware.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\11\\SLOY.Shared\\SLOY.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

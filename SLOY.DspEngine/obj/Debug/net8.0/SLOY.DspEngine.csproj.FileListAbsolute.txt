@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\11\SLOY.DspEngine\bin\Debug\net8.0\SLOY.DspEngine.deps.json
+C:\Users\User\Desktop\11\SLOY.DspEngine\bin\Debug\net8.0\SLOY.DspEngine.dll
+C:\Users\User\Desktop\11\SLOY.DspEngine\bin\Debug\net8.0\SLOY.DspEngine.pdb
+C:\Users\User\Desktop\11\SLOY.DspEngine\obj\Debug\net8.0\SLOY.DspEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\11\SLOY.DspEngine\obj\Debug\net8.0\SLOY.DspEngine.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\11\SLOY.DspEngine\obj\Debug\net8.0\SLOY.DspEngine.AssemblyInfo.cs
+C:\Users\User\Desktop\11\SLOY.DspEngine\obj\Debug\net8.0\SLOY.DspEngine.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\11\SLOY.DspEngine\obj\Debug\net8.0\SLOY.DspEngine.dll
+C:\Users\User\Desktop\11\SLOY.DspEngine\obj\Debug\net8.0\refint\SLOY.DspEngine.dll
+C:\Users\User\Desktop\11\SLOY.DspEngine\obj\Debug\net8.0\SLOY.DspEngine.pdb
+C:\Users\User\Desktop\11\SLOY.DspEngine\obj\Debug\net8.0\ref\SLOY.DspEngine.dll
+C:\Users\User\Desktop\11\SLOY.DspEngine\obj\Debug\net8.0\SLOY.DspEngine.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\11\SLOY.DspEngine\bin\Debug\net8.0\SLOY.Core.dll
+C:\Users\User\Desktop\11\SLOY.DspEngine\bin\Debug\net8.0\SLOY.Shared.dll
+C:\Users\User\Desktop\11\SLOY.DspEngine\bin\Debug\net8.0\SLOY.Core.pdb
+C:\Users\User\Desktop\11\SLOY.DspEngine\bin\Debug\net8.0\SLOY.Shared.pdb
+C:\Users\User\Desktop\11\SLOY.DspEngine\obj\Debug\net8.0\SLOY.Dsp.210FEE8F.Up2Date

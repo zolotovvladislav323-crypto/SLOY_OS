@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SLOY.App.Unified.Views.Shared.ChatPage"
+             BackgroundColor="#0D0D0D"
+             Shell.NavBarIsVisible="False">
+
+    <Grid RowDefinitions="Auto, *, Auto" Padding="12">
+
+        <!-- Верхняя панель -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto, *, Auto" Margin="0,8,0,12">
+            <Label Grid.Column="0" Text="⬡" FontSize="24" TextColor="#00FFAA" VerticalOptions="Center" />
+            <Label Grid.Column="1" x:Name="TitleLabel" Text="SLOY OS" FontSize="18" TextColor="#FFFFFF" VerticalOptions="Center" Margin="10,0,0,0" />
+            <Label Grid.Column="2" x:Name="NodeIdLabel" Text="" FontSize="10" TextColor="#555555" VerticalOptions="Center" />
+        </Grid>
+
+        <!-- Список сообщений -->
+        <CollectionView Grid.Row="1" x:Name="MessagesCollection" ItemsSource="{Binding Messages}" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="4,6">
+                        <Frame BackgroundColor="{Binding IsMine, Converter={StaticResource MessageColorConverter}}"
+                               CornerRadius="12"
+                               Padding="12,8"
+                               HasShadow="False"
+                               HorizontalOptions="{Binding IsMine, Converter={StaticResource MessageAlignmentConverter}}"
+                               MaximumWidthRequest="320">
+                            <VerticalStackLayout Spacing="2">
+                                <Label Text="{Binding SenderNickname}" FontSize="11" TextColor="#00FFAA" IsVisible="{Binding IsMine, Converter={StaticResource InvertBoolConverter}}" />
+                                <Label Text="{Binding Content}" FontSize="15" TextColor="#FFFFFF" />
+                                <Label Text="{Binding DisplayTime}" FontSize="10" TextColor="#777777" HorizontalOptions="End" />
+                            </VerticalStackLayout>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Панель ввода -->
+        <Grid Grid.Row="2" ColumnDefinitions="*, Auto" ColumnSpacing="8" Margin="0,8,0,0">
+            <Entry Grid.Column="0" x:Name="MessageEntry" Placeholder="Сообщение..." PlaceholderColor="#555555"
+                   TextColor="#FFFFFF" BackgroundColor="#1A1A1A" FontSize="15" ReturnType="Send"
+                   Completed="OnSendClicked" />
+            <Button Grid.Column="1" x:Name="SendButton" Text="▶" BackgroundColor="#00FFAA" TextColor="#0D0D0D"
+                    FontSize="16" CornerRadius="20" WidthRequest="44" HeightRequest="44" Clicked="OnSendClicked" />
+        </Grid>
+
+    </Grid>
+</ContentPage>

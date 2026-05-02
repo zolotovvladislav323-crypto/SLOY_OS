@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Color x:Key="BackgroundPrimary">#F5F5F5</Color>
+    <Color x:Key="BackgroundSecondary">#FFFFFF</Color>
+    <Color x:Key="BackgroundTertiary">#E0E0E0</Color>
+
+    <Color x:Key="TextPrimary">#111111</Color>
+    <Color x:Key="TextSecondary">#555555</Color>
+    <Color x:Key="TextMuted">#999999</Color>
+
+    <Color x:Key="AccentPrimary">#009966</Color>
+    <Color x:Key="AccentSecondary">#007A50</Color>
+
+    <Color x:Key="DangerPrimary">#CC0000</Color>
+    <Color x:Key="WarningPrimary">#CC8800</Color>
+
+    <Color x:Key="BubbleMine">#D4EDDA</Color>
+    <Color x:Key="BubbleOther">#E2E3E5</Color>
+
+    <Style TargetType="Page" ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor" Value="{StaticResource BackgroundPrimary}" />
+    </Style>
+
+    <Style TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}" />
+    </Style>
+
+    <Style TargetType="Entry">
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}" />
+        <Setter Property="PlaceholderColor" Value="{StaticResource TextMuted}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource BackgroundSecondary}" />
+    </Style>
+
+    <Style TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource AccentPrimary}" />
+        <Setter Property="TextColor" Value="#FFFFFF" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="CornerRadius" Value="8" />
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="clr-namespace:SLOY.App.Unified.Behaviors"
+             x:Class="SLOY.App.Unified.Views.Shared.OnboardingPage"
+             BackgroundColor="#0D0D0D"
+             Shell.NavBarIsVisible="False">
+
+    <Grid Padding="30" RowDefinitions="*, Auto, Auto, *">
+
+        <VerticalStackLayout Grid.Row="0" VerticalOptions="End" HorizontalOptions="Center" Spacing="8">
+            <Label Text="⬡" FontSize="48" TextColor="#00FFAA" HorizontalOptions="Center" />
+            <Label Text="SLOY OS" FontSize="24" FontAttributes="Bold" TextColor="#FFFFFF" HorizontalOptions="Center" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Grid.Row="1" Spacing="20" Margin="0,40,0,0">
+
+            <Label Text="Придумай Nickname"
+                   FontSize="18"
+                   TextColor="#CCCCCC"
+                   HorizontalOptions="Center" />
+
+            <Entry x:Name="NicknameEntry"
+                   Placeholder="Например: Ghost_7"
+                   PlaceholderColor="#555555"
+                   TextColor="#FFFFFF"
+                   BackgroundColor="#1A1A1A"
+                   FontSize="18"
+                   MaxLength="30"
+                   HorizontalOptions="Fill"
+                   ClearButtonVisibility="WhileEditing">
+                <Entry.Behaviors>
+                    <behaviors:RegexValidationBehavior Pattern="^[\w\-\.]{2,30}$"
+                                                        InvalidMessage="2–30 символов: буквы, цифры, _, -, ." />
+                </Entry.Behaviors>
+            </Entry>
+
+            <Label x:Name="ErrorLabel"
+                   Text=""
+                   TextColor="#FF4444"
+                   FontSize="13"
+                   HorizontalOptions="Center"
+                   IsVisible="False" />
+
+            <Button x:Name="ContinueButton"
+                    Text="Продолжить"
+                    BackgroundColor="#00FFAA"
+                    TextColor="#0D0D0D"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    CornerRadius="8"
+                    HeightRequest="50"
+                    IsEnabled="False"
+                    Clicked="OnContinueClicked" />
+
+        </VerticalStackLayout>
+
+        <Label Grid.Row="2"
+               Text="Это имя будет видно другим участникам сети"
+               FontSize="11"
+               TextColor="#555555"
+               HorizontalOptions="Center"
+               Margin="0,20,0,0" />
+
+    </Grid>
+</ContentPage>

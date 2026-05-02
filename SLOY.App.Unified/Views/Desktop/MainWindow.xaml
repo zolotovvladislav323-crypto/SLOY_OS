@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:shared="clr-namespace:SLOY.App.Unified.Views.Shared"
+        x:Class="SLOY.App.Unified.Views.Desktop.MainWindow"
+        Title="SLOY OS"
+        MinimumWidth="800"
+        MinimumHeight="600">
+
+    <Shell>
+        <ShellContent Route="ChatPage"
+                      ContentTemplate="{DataTemplate shared:ChatPage}" />
+    </Shell>
+
+</Window>

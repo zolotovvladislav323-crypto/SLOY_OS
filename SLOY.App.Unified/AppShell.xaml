@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:shared="clr-namespace:SLOY.App.Unified.Views.Shared"
+       x:Class="SLOY.App.Unified.AppShell"
+       Shell.FlyoutBehavior="Disabled"
+       Shell.NavBarIsVisible="False">
+
+    <ShellContent x:Name="HelloShell"
+                  Route="HelloPage"
+                  ContentTemplate="{DataTemplate shared:HelloPage}" />
+
+    <ShellContent x:Name="OnboardingShell"
+                  Route="OnboardingPage"
+                  ContentTemplate="{DataTemplate shared:OnboardingPage}" />
+
+    <ShellContent x:Name="ChatShell"
+                  Route="ChatPage"
+                  ContentTemplate="{DataTemplate shared:ChatPage}" />
+
+</Shell>

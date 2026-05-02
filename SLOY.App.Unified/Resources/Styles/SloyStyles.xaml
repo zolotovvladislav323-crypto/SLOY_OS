@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Brand Colors -->
+    <Color x:Key="SloyBlack">#0D0D0D</Color>
+    <Color x:Key="SloyDarkGray">#1A1A1A</Color>
+    <Color x:Key="SloyMidGray">#333333</Color>
+    <Color x:Key="SloyLightGray">#555555</Color>
+    <Color x:Key="SloyTextMuted">#888888</Color>
+    <Color x:Key="SloyWhite">#FFFFFF</Color>
+    <Color x:Key="SloyAccent">#00FFAA</Color>
+    <Color x:Key="SloyAccentDark">#00CC88</Color>
+    <Color x:Key="SloyDanger">#FF4444</Color>
+    <Color x:Key="SloyWarning">#FFAA00</Color>
+
+    <!-- Global Styles -->
+    <Style TargetType="Page" ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor" Value="{StaticResource SloyBlack}" />
+    </Style>
+
+    <Style TargetType="Shell" ApplyToDerivedTypes="True">
+        <Setter Property="Shell.BackgroundColor" Value="{StaticResource SloyBlack}" />
+        <Setter Property="Shell.ForegroundColor" Value="{StaticResource SloyWhite}" />
+        <Setter Property="Shell.TitleColor" Value="{StaticResource SloyAccent}" />
+        <Setter Property="Shell.DisabledColor" Value="{StaticResource SloyLightGray}" />
+        <Setter Property="Shell.UnselectedColor" Value="{StaticResource SloyTextMuted}" />
+        <Setter Property="Shell.NavBarHasShadow" Value="False" />
+        <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource SloyDarkGray}" />
+        <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource SloyAccent}" />
+        <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource SloyTextMuted}" />
+    </Style>
+
+    <Style x:Key="PrimaryButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource SloyAccent}" />
+        <Setter Property="TextColor" Value="{StaticResource SloyBlack}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="HeightRequest" Value="50" />
+        <Setter Property="Padding" Value="20,0" />
+    </Style>
+
+    <Style x:Key="SecondaryButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource SloyMidGray}" />
+        <Setter Property="TextColor" Value="{StaticResource SloyAccent}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="HeightRequest" Value="44" />
+        <Setter Property="Padding" Value="20,0" />
+    </Style>
+
+    <Style x:Key="DangerButton" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource SloyDanger}" />
+        <Setter Property="TextColor" Value="{StaticResource SloyWhite}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="HeightRequest" Value="50" />
+    </Style>
+
+    <Style x:Key="SloyEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="{StaticResource SloyWhite}" />
+        <Setter Property="PlaceholderColor" Value="{StaticResource SloyLightGray}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource SloyDarkGray}" />
+        <Setter Property="FontSize" Value="16" />
+    </Style>
+
+    <Style x:Key="SloyLabel" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource SloyWhite}" />
+    </Style>
+
+    <Style x:Key="SloyTitle" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource SloyWhite}" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontAttributes" Value="Bold" />
+    </Style>
+
+    <Style x:Key="SloySubtitle" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource SloyTextMuted}" />
+        <Setter Property="FontSize" Value="14" />
+    </Style>
+
+</ResourceDictionary>

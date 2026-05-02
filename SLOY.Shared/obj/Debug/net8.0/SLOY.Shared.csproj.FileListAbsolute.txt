@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\11\SLOY.Shared\bin\Debug\net8.0\SLOY.Shared.deps.json
+C:\Users\User\Desktop\11\SLOY.Shared\bin\Debug\net8.0\SLOY.Shared.dll
+C:\Users\User\Desktop\11\SLOY.Shared\bin\Debug\net8.0\SLOY.Shared.pdb
+C:\Users\User\Desktop\11\SLOY.Shared\obj\Debug\net8.0\SLOY.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\11\SLOY.Shared\obj\Debug\net8.0\SLOY.Shared.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\11\SLOY.Shared\obj\Debug\net8.0\SLOY.Shared.AssemblyInfo.cs
+C:\Users\User\Desktop\11\SLOY.Shared\obj\Debug\net8.0\SLOY.Shared.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\11\SLOY.Shared\obj\Debug\net8.0\SLOY.Shared.dll
+C:\Users\User\Desktop\11\SLOY.Shared\obj\Debug\net8.0\refint\SLOY.Shared.dll
+C:\Users\User\Desktop\11\SLOY.Shared\obj\Debug\net8.0\SLOY.Shared.pdb
+C:\Users\User\Desktop\11\SLOY.Shared\obj\Debug\net8.0\ref\SLOY.Shared.dll

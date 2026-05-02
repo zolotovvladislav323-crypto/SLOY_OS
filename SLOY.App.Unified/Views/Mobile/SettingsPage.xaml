@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SLOY.App.Unified.Views.Mobile.SettingsPage"
+             BackgroundColor="#0D0D0D"
+             Title="Настройки">
+
+    <ScrollView Padding="16">
+        <VerticalStackLayout Spacing="16">
+
+            <Label Text="Приватность" FontSize="20" FontAttributes="Bold" TextColor="#00FFAA" />
+
+            <Grid ColumnDefinitions="*, Auto">
+                <Label Grid.Column="0" Text="Скрыть Node ID" TextColor="#CCCCCC" VerticalOptions="Center" />
+                <Switch Grid.Column="1" x:Name="HideNodeIdSwitch" OnColor="#00FFAA" />
+            </Grid>
+
+            <Grid ColumnDefinitions="*, Auto">
+                <Label Grid.Column="0" Text="Шифровать метаданные" TextColor="#CCCCCC" VerticalOptions="Center" />
+                <Switch Grid.Column="1" x:Name="EncryptMetadataSwitch" IsToggled="True" OnColor="#00FFAA" />
+            </Grid>
+
+            <Grid ColumnDefinitions="*, Auto">
+                <Label Grid.Column="0" Text="Маршрутизация через микс-узлы" TextColor="#CCCCCC" VerticalOptions="Center" />
+                <Switch Grid.Column="1" x:Name="MixNodesSwitch" OnColor="#00FFAA" />
+            </Grid>
+
+            <Grid ColumnDefinitions="*, Auto">
+                <Label Grid.Column="0" Text="Ложный трафик" TextColor="#CCCCCC" VerticalOptions="Center" />
+                <Switch Grid.Column="1" x:Name="DecoyTrafficSwitch" OnColor="#00FFAA" />
+            </Grid>
+
+            <BoxView HeightRequest="1" Color="#333333" Margin="0,8" />
+
+            <Label Text="Безопасность" FontSize="20" FontAttributes="Bold" TextColor="#00FFAA" />
+
+            <Grid ColumnDefinitions="*, Auto">
+                <Label Grid.Column="0" Text="Биометрическая блокировка" TextColor="#CCCCCC" VerticalOptions="Center" />
+                <Switch Grid.Column="1" x:Name="BiometricLockSwitch" OnColor="#00FFAA" />
+            </Grid>
+
+            <Grid ColumnDefinitions="*, Auto">
+                <Label Grid.Column="0" Text="Автоуничтожение (минут)" TextColor="#CCCCCC" VerticalOptions="Center" />
+                <Entry Grid.Column="1" x:Name="AutoShredEntry" Text="30" Keyboard="Numeric"
+                       TextColor="#FFFFFF" BackgroundColor="#1A1A1A" WidthRequest="80" />
+            </Grid>
+
+            <BoxView HeightRequest="1" Color="#333333" Margin="0,8" />
+
+            <Button Text="СОХРАНИТЬ НАСТРОЙКИ"
+                    BackgroundColor="#00FFAA" TextColor="#0D0D0D"
+                    FontAttributes="Bold" CornerRadius="8" HeightRequest="50"
+                    Clicked="OnSaveClicked" />
+
+            <Button Text="ЭКСТРЕННОЕ УНИЧТОЖЕНИЕ"
+                    BackgroundColor="#FF4444" TextColor="#FFFFFF"
+                    FontAttributes="Bold" CornerRadius="8" HeightRequest="50"
+                    Clicked="OnNukeClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

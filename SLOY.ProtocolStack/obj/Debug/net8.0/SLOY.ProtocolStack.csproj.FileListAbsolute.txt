@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\bin\Debug\net8.0\SLOY.ProtocolStack.deps.json
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\bin\Debug\net8.0\SLOY.ProtocolStack.dll
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\bin\Debug\net8.0\SLOY.ProtocolStack.pdb
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\obj\Debug\net8.0\SLOY.ProtocolStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\obj\Debug\net8.0\SLOY.ProtocolStack.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\obj\Debug\net8.0\SLOY.ProtocolStack.AssemblyInfo.cs
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\obj\Debug\net8.0\SLOY.ProtocolStack.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\obj\Debug\net8.0\SLOY.ProtocolStack.dll
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\obj\Debug\net8.0\refint\SLOY.ProtocolStack.dll
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\obj\Debug\net8.0\SLOY.ProtocolStack.pdb
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\obj\Debug\net8.0\ref\SLOY.ProtocolStack.dll
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\bin\Debug\net8.0\SLOY.Core.dll
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\bin\Debug\net8.0\SLOY.Shared.dll
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\bin\Debug\net8.0\SLOY.Core.pdb
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\bin\Debug\net8.0\SLOY.Shared.pdb
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\obj\Debug\net8.0\SLOY.ProtocolStack.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\11\SLOY.ProtocolStack\obj\Debug\net8.0\SLOY.Pro.D3DD16C2.Up2Date

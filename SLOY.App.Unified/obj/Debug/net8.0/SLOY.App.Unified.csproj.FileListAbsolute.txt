@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\11\SLOY.App.Unified\obj\Debug\net8.0\SLOY.App.Unified.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\11\SLOY.App.Unified\obj\Debug\net8.0\SLOY.App.Unified.csproj.GenerateResource.cache
+C:\Users\User\Desktop\11\SLOY.App.Unified\obj\Debug\net8.0\SLOY.App.Unified.Resources.Localization.Messages.resources
+C:\Users\User\Desktop\11\SLOY.App.Unified\obj\Debug\net8.0\SLOY.App.Unified.Resources.Localization.Messages.ru.resources
+C:\Users\User\Desktop\11\SLOY.App.Unified\obj\Debug\net8.0\SLOY.App.Unified.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\11\SLOY.App.Unified\obj\Debug\net8.0\SLOY.App.Unified.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\11\SLOY.App.Unified\obj\Debug\net8.0\SLOY.App.Unified.AssemblyInfo.cs
+C:\Users\User\Desktop\11\SLOY.App.Unified\obj\Debug\net8.0\SLOY.App.Unified.csproj.CoreCompileInputs.cache

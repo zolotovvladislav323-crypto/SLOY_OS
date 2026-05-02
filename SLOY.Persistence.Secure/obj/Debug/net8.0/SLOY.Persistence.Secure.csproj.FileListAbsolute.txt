@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\bin\Debug\net8.0\SLOY.Persistence.Secure.deps.json
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\bin\Debug\net8.0\SLOY.Persistence.Secure.dll
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\bin\Debug\net8.0\SLOY.Persistence.Secure.pdb
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\obj\Debug\net8.0\SLOY.Persistence.Secure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\obj\Debug\net8.0\SLOY.Persistence.Secure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\obj\Debug\net8.0\SLOY.Persistence.Secure.AssemblyInfo.cs
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\obj\Debug\net8.0\SLOY.Persistence.Secure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\obj\Debug\net8.0\SLOY.Persistence.Secure.dll
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\obj\Debug\net8.0\refint\SLOY.Persistence.Secure.dll
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\obj\Debug\net8.0\SLOY.Persistence.Secure.pdb
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\obj\Debug\net8.0\ref\SLOY.Persistence.Secure.dll
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\bin\Debug\net8.0\SLOY.Core.dll
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\bin\Debug\net8.0\SLOY.Shared.dll
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\bin\Debug\net8.0\SLOY.Core.pdb
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\bin\Debug\net8.0\SLOY.Shared.pdb
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\obj\Debug\net8.0\SLOY.Persistence.Secure.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\11\SLOY.Persistence.Secure\obj\Debug\net8.0\SLOY.Per.D6DBFF76.Up2Date

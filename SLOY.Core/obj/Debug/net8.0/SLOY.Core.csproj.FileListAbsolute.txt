@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\11\SLOY.Core\bin\Debug\net8.0\SLOY.Core.deps.json
+C:\Users\User\Desktop\11\SLOY.Core\bin\Debug\net8.0\SLOY.Core.dll
+C:\Users\User\Desktop\11\SLOY.Core\bin\Debug\net8.0\SLOY.Core.pdb
+C:\Users\User\Desktop\11\SLOY.Core\obj\Debug\net8.0\SLOY.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\11\SLOY.Core\obj\Debug\net8.0\SLOY.Core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\11\SLOY.Core\obj\Debug\net8.0\SLOY.Core.AssemblyInfo.cs
+C:\Users\User\Desktop\11\SLOY.Core\obj\Debug\net8.0\SLOY.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\11\SLOY.Core\obj\Debug\net8.0\SLOY.Core.dll
+C:\Users\User\Desktop\11\SLOY.Core\obj\Debug\net8.0\refint\SLOY.Core.dll
+C:\Users\User\Desktop\11\SLOY.Core\obj\Debug\net8.0\SLOY.Core.pdb
+C:\Users\User\Desktop\11\SLOY.Core\obj\Debug\net8.0\ref\SLOY.Core.dll
+C:\Users\User\Desktop\11\SLOY.Core\bin\Debug\net8.0\SLOY.Shared.dll
+C:\Users\User\Desktop\11\SLOY.Core\bin\Debug\net8.0\SLOY.Shared.pdb
+C:\Users\User\Desktop\11\SLOY.Core\obj\Debug\net8.0\SLOY.Core.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\11\SLOY.Core\obj\Debug\net8.0\SLOY.Core.csproj.Up2Date

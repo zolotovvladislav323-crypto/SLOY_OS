@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SLOY.App.Unified"
+             x:Class="SLOY.App.Unified.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- Конвертеры -->
+            <local:MessageColorConverter x:Key="MessageColorConverter" />
+            <local:MessageAlignmentConverter x:Key="MessageAlignmentConverter" />
+            <local:InvertBoolConverter x:Key="InvertBoolConverter" />
+
+            <!-- Тема -->
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/SloyStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\11\SLOY.IntegrationTests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_SLOY.IntegrationTests
+C:\Users\User\Desktop\11\SLOY.IntegrationTests\obj\Debug\net8.0\SLOY.IntegrationTests.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\11\SLOY.IntegrationTests\obj\Debug\net8.0\SLOY.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\11\SLOY.IntegrationTests\obj\Debug\net8.0\SLOY.IntegrationTests.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\11\SLOY.IntegrationTests\obj\Debug\net8.0\SLOY.IntegrationTests.AssemblyInfo.cs
+C:\Users\User\Desktop\11\SLOY.IntegrationTests\obj\Debug\net8.0\SLOY.IntegrationTests.csproj.CoreCompileInputs.cache

@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\bin\Debug\net8.0\SLOY.Infrastructure.Hardware.deps.json
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\bin\Debug\net8.0\SLOY.Infrastructure.Hardware.dll
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\bin\Debug\net8.0\SLOY.Infrastructure.Hardware.pdb
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\obj\Debug\net8.0\SLOY.Infrastructure.Hardware.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\obj\Debug\net8.0\SLOY.Infrastructure.Hardware.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\obj\Debug\net8.0\SLOY.Infrastructure.Hardware.AssemblyInfo.cs
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\obj\Debug\net8.0\SLOY.Infrastructure.Hardware.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\obj\Debug\net8.0\SLOY.Infrastructure.Hardware.dll
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\obj\Debug\net8.0\refint\SLOY.Infrastructure.Hardware.dll
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\obj\Debug\net8.0\SLOY.Infrastructure.Hardware.pdb
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\obj\Debug\net8.0\ref\SLOY.Infrastructure.Hardware.dll
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\obj\Debug\net8.0\SLOY.Infrastructure.Hardware.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\bin\Debug\net8.0\SLOY.Core.dll
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\bin\Debug\net8.0\SLOY.Shared.dll
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\bin\Debug\net8.0\SLOY.Core.pdb
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\bin\Debug\net8.0\SLOY.Shared.pdb
+C:\Users\User\Desktop\11\SLOY.Infrastructure.Hardware\obj\Debug\net8.0\SLOY.Inf.4ADF57C4.Up2Date

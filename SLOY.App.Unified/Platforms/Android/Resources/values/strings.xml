@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SLOY OS</string>
+    <string name="app_description">Защищённая меш-сеть</string>
+    <string name="service_name">SLOY Mesh Service</string>
+    <string name="service_description">Поддержание меш-сети в фоне</string>
+    <string name="notification_channel_mesh">Меш-сеть</string>
+    <string name="notification_channel_alerts">Критические оповещения</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>SLOY OS использует камеру для оптической передачи данных (QR-коды, стробоскоп, скрин-модуляция)</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>SLOY OS использует микрофон для акустической передачи данных между устройствами</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>SLOY OS использует Bluetooth для обнаружения пиров и передачи данных</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>SLOY OS использует Bluetooth для рекламы узла в меш-сети</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>SLOY OS использует геолокацию для обнаружения устройств поблизости</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>audio</string>
+		<string>processing</string>
+		<string>fetch</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

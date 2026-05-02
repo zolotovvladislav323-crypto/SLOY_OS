@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\11\SLOY.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_SLOY.Tests
+C:\Users\User\Desktop\11\SLOY.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_SLOY.Tests
+C:\Users\User\Desktop\11\SLOY.Tests\obj\Debug\net8.0\SLOY.Tests.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\11\SLOY.Tests\obj\Debug\net8.0\SLOY.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\11\SLOY.Tests\obj\Debug\net8.0\SLOY.Tests.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\11\SLOY.Tests\obj\Debug\net8.0\SLOY.Tests.AssemblyInfo.cs
+C:\Users\User\Desktop\11\SLOY.Tests\obj\Debug\net8.0\SLOY.Tests.csproj.CoreCompileInputs.cache

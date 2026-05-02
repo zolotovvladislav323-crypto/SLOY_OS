@@ -1,0 +1,113 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SLOY.App.Unified
+build_property.ProjectDir = C:\Users\User\Desktop\11\SLOY.App.Unified\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = Platforms\Windows\App.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Resources/Styles/SloyStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Resources.Styles.SloyStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\SloyStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\SloyStyles.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Views/Desktop/ChatView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Views.Desktop.ChatView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Desktop\ChatView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Desktop\ChatView.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Views/Desktop/MainWindow.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Views.Desktop.MainWindow.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Desktop\MainWindow.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Desktop\MainWindow.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Views/Desktop/NetworkMapView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Views.Desktop.NetworkMapView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Desktop\NetworkMapView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Desktop\NetworkMapView.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Views/Mobile/DiagnosticsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Views.Mobile.DiagnosticsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Mobile\DiagnosticsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Mobile\DiagnosticsPage.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Views/Mobile/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Views.Mobile.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Mobile\SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Mobile\SettingsPage.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Views/Shared/ChatPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Views.Shared.ChatPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\ChatPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Shared\ChatPage.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Views/Shared/ConnectViaQRPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Views.Shared.ConnectViaQRPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\ConnectViaQRPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Shared\ConnectViaQRPage.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Views/Shared/HelloPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Views.Shared.HelloPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\HelloPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Shared\HelloPage.xaml
+
+[C:/Users/User/Desktop/11/SLOY.App.Unified/Views/Shared/OnboardingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SLOY.App.Unified.Views.Shared.OnboardingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Shared\OnboardingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Shared\OnboardingPage.xaml

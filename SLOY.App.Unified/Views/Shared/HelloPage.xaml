@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SLOY.App.Unified.Views.Shared.HelloPage"
+             BackgroundColor="#0D0D0D"
+             Shell.NavBarIsVisible="False">
+
+    <Grid RowDefinitions="*, Auto, *"
+          Padding="30">
+
+        <!-- Верх: логотип -->
+        <VerticalStackLayout Grid.Row="0"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center"
+                             Spacing="10">
+            <Label Text="⬡"
+                   FontSize="72"
+                   TextColor="#00FFAA"
+                   HorizontalOptions="Center"
+                   Opacity="0"
+                   x:Name="LogoLabel" />
+            <Label Text="SLOY OS"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   TextColor="#FFFFFF"
+                   HorizontalOptions="Center"
+                   Opacity="0"
+                   x:Name="TitleLabel" />
+        </VerticalStackLayout>
+
+        <!-- Центр: приветствие -->
+        <Label Grid.Row="1"
+               x:Name="GreetingLabel"
+               Text="Загрузка..."
+               FontSize="20"
+               TextColor="#AAAAAA"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Opacity="0"
+               HorizontalTextAlignment="Center" />
+
+        <!-- Низ: прогресс -->
+        <VerticalStackLayout Grid.Row="2"
+                             VerticalOptions="End"
+                             HorizontalOptions="Center"
+                             Spacing="8">
+            <ActivityIndicator IsRunning="True"
+                               Color="#00FFAA"
+                               HeightRequest="30"
+                               x:Name="LoaderIndicator" />
+            <Label x:Name="StatusLabel"
+                   Text="Установка защищённого канала..."
+                   FontSize="12"
+                   TextColor="#666666"
+                   HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
